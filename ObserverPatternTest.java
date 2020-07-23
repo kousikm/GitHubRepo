@@ -6,7 +6,8 @@ import java.util.Observer;
 
 public class ObserverPatternTest {
     public static void main(String args[]) {
-        System.out.println("Enter Text >");
+        System.out.println("Tag 1");
+		System.out.println("Enter Text >");
  
         // create an event source - reads from stdin
         final EventSource evSrc = new EventSource();
